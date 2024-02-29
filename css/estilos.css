@@ -312,3 +312,72 @@ article > section:nth-child(2){
         text-decoration: none;
         padding-right: 1.5em;
     }
+   /*Media queries*/
+    /*Aplicar los siguientes estilos cuando el tamado del viewport se encuentre en un rango de 962px-1199px*/
+    @media screen and (min-width:960px )and (max-width:1199px){
+        .coll h3
+      {
+       font-size: 1.05rem;
+    }
+    h2 {
+       
+        font-size: 1.43rem;
+    }
+    #seccionDos {
+        display: flex;
+
+}
+  }
+   /* ESTILOS PARA VIEWPORt 660px A 959px */ 
+   @media screen and(min-width:560px) and (max-width:959px) {
+    #intro {
+      flex-flow: column wrap;
+      }
+    h1 {
+        font-size: 3.3rem;
+        }     
+    #descripcion {
+        flex-basis: 100%;
+        padding: 0 0 0 0;
+        flex-grow: 0; 
+        }
+       
+   article > section:nth-child(2) { 
+        padding: 20px 0;
+       }
+   #seccionDos {
+       flex-flow: column wrap;
+       }
+   .coll {
+       padding: 30px 0;
+       }
+   #seccionTres {
+       flex-flow: column wrap;
+       }
+   #seccionTres div {
+       flex-basis: 100%;
+       padding-right: 0;
+       }
+   #seccionTres a {
+       padding: 20px 0;
+       width: 100%;
+       text-align: center;
+       }
+   video {
+       flex-basis: 100%;
+       width: 100%;
+       }
+   article > section:nth-child(4) {
+       padding: 30px 0 0;
+       }
+   #seccionCuatro {
+       flex-flow: column;
+       }
+   #seccionCinco {
+       text-align: center;
+       }
+       .card {
+        margin: 19px -0.5em;
+        box-shadow: 2px 5px 15px #5f5858;
+}
+   }
